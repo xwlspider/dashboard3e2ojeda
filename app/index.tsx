@@ -1,21 +1,12 @@
-
+import ProfileDetails from "@/components/ProfileDetails";
 import { Text, View } from "react-native";
-
 import "../global.css";
-
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    > 
-      <Text className="italic">OLAAAAAA</Text>
-    <View className="flex-1 justify-center items-center bg-yellow-100 w-screen h-screen">
-      <Text className="italic">Edit app/index.tsx to edit this screen.</Text>
-      <ProfileDetails />
+    <View className="flex justify-center items-center bg-stone-800 w-screen h-screen">
+      <Text className="text-white bold text-xl">Edit app/index.tsx to edit this screen.</Text>
+    <View className="flex justify-center items-center bg-white w-screen h-screen">
+      <ProfileDetails></ProfileDetails>
     </View>
     </View>
   );
