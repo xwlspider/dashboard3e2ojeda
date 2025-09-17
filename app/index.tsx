@@ -12,9 +12,10 @@ export default function Index() {
         alignItems: "center",
       }}
     > 
-  
-    <View className="flex-1 justify-center items-center bg-yellow-100 w-screen h-screen" >
+      <Text className="italic">OLAAAAAA</Text>
+    <View className="flex-1 justify-center items-center bg-yellow-100 w-screen h-screen">
       <Text className="italic">Edit app/index.tsx to edit this screen.</Text>
+      <ProfileDetails />
     </View>
     </View>
   );
