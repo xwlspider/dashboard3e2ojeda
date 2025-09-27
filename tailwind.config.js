@@ -4,7 +4,11 @@ module.exports = {
   content: ["./app/**/*","./components/**/*.{js,jsx,ts,tsx}"],
   presets: [require("nativewind/preset")],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        comic: ["ComicNeue"],   // divertida tipo cómi
+      },
+    },  
   },
   plugins: [],
 }
