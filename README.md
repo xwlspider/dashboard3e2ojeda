@@ -1,5 +1,5 @@
 > Edited for use in IDX on 07/09/12
-# Tercer insumo E2
+# Pimer insumo 3E2
 
 # Welcome to your Expo app 👋
 Este es el primer insumo del curso E2, donde se les pide diseñar una interfaz de usuario más concreta para un perfil de una red social.
