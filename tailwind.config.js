@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        comic: ["ComicNeue"],   // divertida tipo cómi
+        comic: ["ComicNeue"],   // divertida tipo cómic
       },
     },  
   },

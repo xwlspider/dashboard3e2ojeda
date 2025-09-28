@@ -31,15 +31,17 @@ const ProfileDetails = () => {
         />
         
         <IconButton 
-        icon="square-facebook" 
-        pulsar={() => console.log('Facebook')} 
-        color={'#1877F2'} 
+        icon="tiktok" 
+        pulsar={() => console.log('tiktok')} 
+        enlace='https://www.tiktok.com/@xwl_spider?_t=ZM-905gsDIDWGJ&_r=1'
+        color={'#31c4f3'} 
         />
 
         <IconButton 
-        icon="square-twitter" 
-        pulsar={() => console.log('Twitter')} 
-        color={'#1DA1F2'} 
+        icon="whatsapp" 
+        pulsar={() => console.log('whatsapp')}
+        enlace='https://wa.me/593984672753' 
+        color={'#1DB954'} 
         />
 
        </View>
